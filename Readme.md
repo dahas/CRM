@@ -5,15 +5,16 @@ Client and room manager for chat applications with socket.io
 
 ## How to use
 
-### Install via console
+#### Install via console
 npm install crm@1.x.x
 
-### Include in your serverside JS
+#### Include in your serverside JS
 var crm = require('crm');
 
-### Namespace
+#### Namespace (optional)
 var nsp = io.of("/chat");
 
+#### Usage
 ````
 nsp.on('connection', function (socket) {
   // Create a readable unique ID
