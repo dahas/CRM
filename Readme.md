@@ -1,7 +1,7 @@
 
 # crm
 
-Client and room manager for chat applications with socket.io
+Client and room manager for chat applications with nodejs and socket.io
 
 ## How to use
 
