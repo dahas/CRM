@@ -42,7 +42,8 @@ nsp.on('connection', function (socket) {
   uClientID = crm.changeClientID(uClientID, "NewID");
 }
 ````
+## Publisher
+Martin Wolf
 
 ## License
-
 MIT
